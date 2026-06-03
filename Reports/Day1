@@ -1,1 +1,190 @@
+# Day 1 Report: Introduction to VAPT and Security Fundamentals
 
+## Project Title
+
+Industry-Oriented Web Application Vulnerability Assessment and Penetration Testing (VAPT)
+
+## Date
+
+02 June 2026
+
+## Objective
+
+The objective of Day 1 was to understand the fundamental concepts of cybersecurity, Vulnerability Assessment and Penetration Testing (VAPT), security principles, and common web application security risks.
+
+---
+
+## Introduction to Cybersecurity
+
+Cybersecurity is the practice of protecting computer systems, networks, applications, and data from unauthorized access, attacks, damage, or theft. It helps organizations maintain the confidentiality, integrity, and availability of information.
+
+Cybersecurity is essential because modern organizations rely heavily on digital systems and web applications, which are common targets for cyber attacks.
+
+---
+
+## CIA Triad
+
+The CIA Triad is the foundation of information security.
+
+### Confidentiality
+
+Confidentiality ensures that sensitive information is accessible only to authorized individuals.
+
+Example:
+
+* User passwords should not be accessible to unauthorized users.
+
+### Integrity
+
+Integrity ensures that data remains accurate and unaltered.
+
+Example:
+
+* A bank account balance should not be modified without authorization.
+
+### Availability
+
+Availability ensures that systems and services remain accessible when required.
+
+Example:
+
+* An organization's website should remain available to legitimate users.
+
+---
+
+## Vulnerability and Exploit
+
+### Vulnerability
+
+A vulnerability is a weakness in a system, application, or network that can be exploited by an attacker.
+
+Examples:
+
+* Weak passwords
+* Outdated software
+* SQL Injection vulnerabilities
+
+### Exploit
+
+An exploit is a method or technique used to take advantage of a vulnerability.
+
+Example:
+
+* Injecting malicious SQL queries to bypass authentication.
+
+---
+
+## Understanding VAPT
+
+VAPT stands for Vulnerability Assessment and Penetration Testing. It is a structured approach used to identify and evaluate security weaknesses in systems and applications.
+
+### Vulnerability Assessment (VA)
+
+Vulnerability Assessment focuses on identifying and classifying vulnerabilities present in a system.
+
+### Penetration Testing (PT)
+
+Penetration Testing attempts to exploit identified vulnerabilities to determine their real-world impact.
+
+### Difference Between VA and PT
+
+| Vulnerability Assessment      | Penetration Testing      |
+| ----------------------------- | ------------------------ |
+| Identifies vulnerabilities    | Exploits vulnerabilities |
+| Mostly automated              | Mostly manual            |
+| Produces a list of weaknesses | Demonstrates impact      |
+| Lower operational risk        | Higher operational risk  |
+
+---
+
+## VAPT Methodology
+
+### 1. Reconnaissance
+
+Collecting information about the target system or application.
+
+### 2. Scanning
+
+Identifying open ports, services, and technologies.
+
+### 3. Enumeration
+
+Gathering detailed information from discovered services.
+
+### 4. Vulnerability Assessment
+
+Identifying vulnerabilities and security weaknesses.
+
+### 5. Exploitation
+
+Validating vulnerabilities through controlled testing.
+
+### 6. Post-Exploitation
+
+Assessing the impact of successful exploitation.
+
+### 7. Reporting
+
+Documenting findings, risks, evidence, and remediation recommendations.
+
+---
+
+## OWASP Top 10 Security Risks
+
+### A01: Broken Access Control
+
+Improper restrictions allow unauthorized users to access resources.
+
+### A02: Cryptographic Failures
+
+Sensitive information is not adequately protected through encryption.
+
+### A03: Injection
+
+Untrusted data is interpreted as commands or queries by an interpreter.
+
+### A04: Insecure Design
+
+Security weaknesses caused by poor application design.
+
+### A05: Security Misconfiguration
+
+Incorrect security settings expose systems to threats.
+
+### A06: Vulnerable and Outdated Components
+
+Use of software with known security vulnerabilities.
+
+### A07: Identification and Authentication Failures
+
+Weak authentication mechanisms allow unauthorized access.
+
+### A08: Software and Data Integrity Failures
+
+Applications fail to verify the integrity of software and data.
+
+### A09: Security Logging and Monitoring Failures
+
+Insufficient monitoring prevents timely detection of attacks.
+
+### A10: Server-Side Request Forgery (SSRF)
+
+Attackers manipulate servers into making unintended requests.
+
+---
+
+## Key Learnings
+
+* Learned the fundamentals of cybersecurity.
+* Understood the CIA Triad security model.
+* Learned the difference between vulnerabilities and exploits.
+* Studied the concepts of Vulnerability Assessment and Penetration Testing.
+* Understood the complete VAPT lifecycle.
+* Gained an overview of the OWASP Top 10 web application security risks.
+* Learned the importance of risk assessment and security reporting.
+
+---
+
+## Conclusion
+
+Day 1 provided a strong foundation in cybersecurity and VAPT concepts. Understanding these fundamentals is essential before performing practical security assessments using tools such as Nmap, Burp Suite, OWASP ZAP, and Metasploit. The knowledge gained will be applied in the subsequent stages of the project.
